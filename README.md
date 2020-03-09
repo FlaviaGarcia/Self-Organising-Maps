@@ -11,3 +11,5 @@ The SOM algorithm is a CL algorithm (unsupervised), so that one neuron is chosen
 2. Find the most similar node; often referred to as the *winner*.
 3. Select a set of output nodes which are located close to the winner in the *output grid*. This is called *neightbourhood*.
 4.  Update the weights of all nodes in the neighbourhood such that their weights are moved closer to the input pattern. 
+
+Normally the interesting result of this algorithm is to see where different input patterns end up in the output grid. In order to get the results, we loop throught the input patterns once more, but this time we only calculate the winning node. 

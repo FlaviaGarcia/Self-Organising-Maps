@@ -1,4 +1,4 @@
-# self_organising_maps
+# Self Organising Maps (SOM)
 
 In this repository the Self-Organising Map (SOM) is implemented from scratch. In this algorithm instead of having layers of neurons, we have a grid with all the neurons (feature mapping). The input space is high dimensional and the output space is low dimensional.
 
